@@ -1,0 +1,43 @@
+.accordionWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.multiBtn{
+    padding: 10px 20px;
+    background-color: rgb(239, 239, 91);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.multiBtn:hover{
+    background-color: rgb(161, 161, 62);
+}
+.accordionDiv{
+    width: 70%;
+}
+.item{
+    background-color: green;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.item:hover{
+    box-shadow: 2px 2px 10px gray;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.title h3{
+    margin-left: 20px;
+}
+.plusIcon{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
